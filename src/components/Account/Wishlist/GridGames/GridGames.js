@@ -11,7 +11,7 @@ export function GridGames(props) {
     <div className={styles.gridGames}>
       {map(wishlist, (item) => {
         const game = item.attributes.game.data;
-        const cover = game.attributes.cover.data;
+        const cover = game.attributes.cover;
 
         return (
           <div key={item.id} className={styles.game}>

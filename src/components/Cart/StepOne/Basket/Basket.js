@@ -20,7 +20,7 @@ export function Basket(props) {
       <div className={styles.block}>
         {map(games, (game) => (
           <div key={game.id} className={styles.product}>
-            <Image src={game.attributes.cover.data.attributes.url} />
+            <Image src={game.attributes.cover} />
             <div>
               <div className={styles.info}>
                 <div>

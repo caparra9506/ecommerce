@@ -34,7 +34,7 @@ export function BannerLastGamePublished() {
 
   return (
     <div className={styles.container}>
-      <Image src={wallpaper.data.attributes.url} className={styles.wallpaper} />
+      <Image src={wallpaper} className={styles.wallpaper} />
 
       <Link className={styles.infoContainer} href={game.attributes.slug}>
         <Container>

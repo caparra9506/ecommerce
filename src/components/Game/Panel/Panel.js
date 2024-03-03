@@ -25,7 +25,7 @@ export function Panel(props) {
   return (
     <Container className={styles.panel}>
       <div className={styles.imgContiner}>
-        <Image src={game.cover.data.attributes.url} />
+        <Image src={game.cover} />
       </div>
 
       <div className={styles.actionsContainer}>
@@ -34,7 +34,7 @@ export function Panel(props) {
 
           <div className={styles.moreInfo}>
             <span>
-              <Image src={platform.attributes.icon.data.attributes.url} />
+              <Image src={platform.attributes.icon} />
               {platform.attributes.title}
             </span>
             <span>

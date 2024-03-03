@@ -14,7 +14,7 @@ export default function GamePage(props) {
       />
 
       <BasicLayout>
-        <Game.HeaderWallpaper image={wallpaper.data.attributes.url} />
+        <Game.HeaderWallpaper image={wallpaper} />
         <Game.Panel gameId={game.id} game={game.attributes} />
 
         <Separator height={50} />
@@ -25,7 +25,7 @@ export default function GamePage(props) {
 
         <Game.Media
           video={game.attributes.video}
-          screenshots={game.attributes.screenshots.data}
+          screenshots={game.attributes.screenshots}
         />
 
         <Separator height={50} />

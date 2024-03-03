@@ -42,7 +42,7 @@ export function Menu(props) {
     <div className={styles.platforms}>
       {map(platforms, (platform) => (
         <Link key={platform.id} href={`/games/${platform.attributes.slug}`}>
-          <Image src={platform.attributes.icon.data.attributes.url} />
+          <Image src={platform.attributes.icon} />
           {platform.attributes.title}
         </Link>
       ))}
