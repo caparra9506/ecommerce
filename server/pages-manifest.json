@@ -1,0 +1,23 @@
+{
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/account/account": "pages/account/account.html",
+  "/account": "pages/account.html",
+  "/cart/cart": "pages/cart/cart.html",
+  "/cart": "pages/cart.html",
+  "/home/home": "pages/home/home.html",
+  "/home": "pages/home.html",
+  "/games/[platform]/platform": "pages/games/[platform]/platform.html",
+  "/": "pages/index.html",
+  "/join/sign-in/sign-in": "pages/join/sign-in/sign-in.html",
+  "/join/sign-up": "pages/join/sign-up.html",
+  "/join/sign-in": "pages/join/sign-in.html",
+  "/join/sign-up/sign-up": "pages/join/sign-up/sign-up.html",
+  "/search/search": "pages/search/search.html",
+  "/[game]": "pages/[game].js",
+  "/games/[platform]": "pages/games/[platform].js",
+  "/[game]/game": "pages/[game]/game.html",
+  "/search": "pages/search.js",
+  "/404": "pages/404.html"
+}
