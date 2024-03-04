@@ -1,0 +1,99 @@
+[debug] [2024-03-04T02:47:02.197Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T02:47:02.200Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\camilo.ochoa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-03-04T02:47:02.201Z] CLI Version:   13.4.0
+[debug] [2024-03-04T02:47:02.201Z] Platform:      win32
+[debug] [2024-03-04T02:47:02.201Z] Node Version:  v20.10.0
+[debug] [2024-03-04T02:47:02.201Z] Time:          Sun Mar 03 2024 21:47:02 GMT-0500 (hora estándar de Colombia)
+[debug] [2024-03-04T02:47:02.201Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T02:47:02.313Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T02:47:02.314Z] > authorizing via signed-in user (95camilo.ochoa@gmail.com)
+[debug] [2024-03-04T02:47:02.314Z] [iam] checking project ecommerce-7166a for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-03-04T02:47:02.316Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce-7166a:testIamPermissions [none]
+[debug] [2024-03-04T02:47:02.316Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce-7166a:testIamPermissions x-goog-quota-user=projects/ecommerce-7166a
+[debug] [2024-03-04T02:47:02.317Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce-7166a:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-03-04T02:47:02.931Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce-7166a:testIamPermissions 200
+[debug] [2024-03-04T02:47:02.932Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce-7166a:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-03-04T02:47:02.933Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-7166a [none]
+[debug] [2024-03-04T02:47:03.316Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-7166a 200
+[debug] [2024-03-04T02:47:03.317Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-7166a {"projectId":"ecommerce-7166a","projectNumber":"956752124037","displayName":"ecommerce","name":"projects/ecommerce-7166a","resources":{"hostingSite":"ecommerce-7166a"},"state":"ACTIVE","etag":"1_1cdfeb12-9829-4cab-b200-a391bb897d02"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-03-04T02:47:28.335Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-7166a/sites/ecommerce-7166a [none]
+[debug] [2024-03-04T02:47:30.571Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-7166a/sites/ecommerce-7166a 200
+[debug] [2024-03-04T02:47:30.571Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-7166a/sites/ecommerce-7166a {"name":"projects/ecommerce-7166a/sites/ecommerce-7166a","defaultUrl":"https://ecommerce-7166a.web.app","appId":"1:956752124037:web:bd86f067650685c9aef1ec","type":"DEFAULT_SITE"}
+[info] info  - Loaded env from C:\Users\camilo.ochoa\Documents\GitHub\FRONT\REACT\NEXT\ecommerce-next\.env
+
+[info] info  - Linting and checking validity of types...
+
+[info] info  - Creating an optimized production build...
+
+[info] info  - Compiled successfully
+
+[info] info  - Collecting page data...
+
+[info] info  - Generating static pages (0/16)
+
+[info] info  - Generating static pages (4/16)
+
+[info] info  - Generating static pages (8/16)
+
+[info] info  - Generating static pages (12/16)
+
+[info] info  - Generating static pages (16/16)
+
+[info] info  - Finalizing page optimization...
+
+[info] 
+
+[info] Route (pages)                              Size     First Load JS
+┌ ○ / (323 ms)                             1.23 kB         159 kB
+├   /_app                                  0 B             102 kB
+├ λ /[game]                                1.72 kB         162 kB
+├ ○ /[game]/game                           1.69 kB         162 kB
+├ ○ /404                                   180 B           103 kB
+├ ○ /account                               252 B           193 kB
+├ ○ /account/account                       202 B           193 kB
+├ ○ /cart                                  244 B           152 kB
+├ ○ /cart/cart                             196 B           152 kB
+├ λ /games/[platform]                      558 B           138 kB
+├ ○ /games/[platform]/platform             528 B           138 kB
+├ ○ /home (311 ms)                         1.22 kB         159 kB
+├ ○ /home/home                             1.2 kB          159 kB
+├ ○ /join/sign-in                          1.09 kB         167 kB
+├ ○ /join/sign-in/sign-in                  1.08 kB         167 kB
+├ ○ /join/sign-up                          1.07 kB         167 kB
+├ ○ /join/sign-up/sign-up                  1.06 kB         167 kB
+├ λ /search                                586 B           138 kB
+└ ○ /search/search                         556 B           138 kB
++ First Load JS shared by all              201 kB
+  ├ chunks/framework-ac88a2a245aea9ab.js   45.2 kB
+  ├ chunks/main-44bfc15560e143ff.js        26.8 kB
+  ├ chunks/pages/_app-6856aed3c91051b9.js  28.1 kB
+  ├ chunks/webpack-95866cba27543797.js     2.33 kB
+  └ css/929b46eb173fe835.css               98.9 kB
+
+[info] 
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • non-static route /[game]
+[info]  • non-static route /search
+[info]  • non-static route /games/[platform]
+[info] 
+[debug] [2024-03-04T02:48:09.083Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-7166a/sites/ecommerce-7166a [none]
+[debug] [2024-03-04T02:48:09.887Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-7166a/sites/ecommerce-7166a 200
+[debug] [2024-03-04T02:48:09.887Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-7166a/sites/ecommerce-7166a {"name":"projects/ecommerce-7166a/sites/ecommerce-7166a","defaultUrl":"https://ecommerce-7166a.web.app","appId":"1:956752124037:web:bd86f067650685c9aef1ec","type":"DEFAULT_SITE"}
+[debug] [2024-03-04T02:48:12.914Z] Error: ENOSPC: no space left on device, copyfile 'C:\Users\camilo.ochoa\Documents\GitHub\FRONT\REACT\NEXT\ecommerce-next\.next\cache\webpack\client-development\3.pack' -> 'C:\Users\camilo.ochoa\Documents\GitHub\FRONT\REACT\NEXT\ecommerce-next\.firebase\ecommerce-7166a\functions\.next\cache\webpack\client-development\3.pack'
+[error] 
+[error] Error: An unexpected error has occurred.
