@@ -32,7 +32,7 @@ export default function HomePage() {
 
         <Container>
           <Home.LatestGames
-            title="PlayStation"
+            title="Cocina"
             limit={3}
             platformId={platformsId.playstation}
           />
@@ -42,7 +42,7 @@ export default function HomePage() {
 
         <BannerAd
           title="Registrate y obten los mejores precios"
-          subtitle="¡Compara con otros juegos y elige el tuyo!"
+          subtitle="¡Compara con otras tiendas Online!"
           btnTitle="Entrar ahora"
           btnLink="/account"
           image="/images/img01.png"
@@ -52,7 +52,7 @@ export default function HomePage() {
 
         <Container>
           <Home.LatestGames
-            title="Xbox"
+            title="Belleza"
             limit={3}
             platformId={platformsId.xbox}
           />
