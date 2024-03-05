@@ -9,7 +9,7 @@ export function Footer() {
         <div className={styles.columns}>
           <div>
             <Link href="/">
-              <Image src="/images/logo.png" alt="Gaming" />
+              <Image src="/images/logo.png" alt="E-Commerce" />
             </Link>
           </div>
 
@@ -23,15 +23,15 @@ export function Footer() {
           </div>
 
           <div className={styles.social}>
-            <Button as="a" href="#" circular color="facebook" icon="facebook" />
-            <Button as="a" href="#" circular color="twitter" icon="twitter" />
-            <Button as="a" href="#" circular color="linkedin" icon="linkedin" />
-            <Button as="a" href="#" circular color="youtube" icon="youtube" />
-          </div>
+            <Button as="a" href="#" circular color="facebook" icon="facebook" style={{ background: 'white' }} />
+            <Button as="a" href="#" circular color="twitter" icon="twitter" style={{ background: 'white' }} />
+            <Button as="a" href="#" circular color="linkedin" icon="linkedin" style={{ background: 'white' }} />
+            <Button as="a" href="#" circular color="youtube" icon="youtube" style={{ background: 'white' }} />
+          </div>  
         </div>
 
         <div className={styles.copyright}>
-          <span>Copyright © 2023 Gaming - All rights reserved</span>
+          <span>Copyright © 2024 E-Commerce - All rights reserved</span>
         </div>
       </Container>
     </div>

@@ -2,8 +2,8 @@ import Head from "next/head";
 
 export function Seo(props) {
   const {
-    title = "Gaming - Tus juegos favoritos",
-    description = "Tus juegos favoritos para Steam, PlayStation, Xbox, Switch al mejor precio.",
+    title = "Flomil Colombia - Productos importados al detal y mayorista",
+    description = "Precios especiales para emprendedores. ¡Compra por WhatsApp ahora!",
   } = props;
 
   return (
